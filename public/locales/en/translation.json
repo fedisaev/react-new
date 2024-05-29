@@ -7,5 +7,8 @@
   "About site": "About site",
   "Main page": "Main page",
   "Страница не найдена": "Page not found",
-  "Короткий язык": "En"
+  "Короткий язык": "En",
+  "Login": "Login",
+  "increment": "increment",
+  "decrement": "decrement"
 }

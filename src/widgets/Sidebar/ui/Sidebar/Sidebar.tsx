@@ -5,10 +5,10 @@ import { LangSwitcher } from 'widgets/LangSwitcher';
 import { useTranslation } from 'react-i18next';
 import { MyButton, MyButtonTheme } from 'shared/ui/MyButton';
 import { MyButtonSize } from 'shared/ui/MyButton/ui/MyButton';
-import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
 import { RoutePath } from 'shared/config/routeConfig/RouteConfig';
 import AboutIcon from 'shared/assets/icons/about.svg';
 import MainIcon from 'shared/assets/icons/main.svg';
+import { AppLink, AppLinkTheme } from 'shared/ui/AppLink';
 import cls from './Sidebar.module.scss';
 
 interface SidebarProps {

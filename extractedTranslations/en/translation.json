@@ -8,7 +8,10 @@
       }
     }
   },
+  "Login": "Login",
   "Main page": "Main page",
+  "decrement": "decrement",
+  "increment": "increment",
   "toggle": "toggle",
   "Брось ошибку": "Брось ошибку",
   "Главная страница": "Главная страница",
