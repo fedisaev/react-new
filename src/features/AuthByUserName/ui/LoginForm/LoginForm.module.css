@@ -1,0 +1,12 @@
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+.inputBtn {
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=LoginForm.module.css.map */

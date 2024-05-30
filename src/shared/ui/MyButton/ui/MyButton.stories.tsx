@@ -4,7 +4,7 @@ import { Theme } from 'app/providers/ThemeProvider';
 import { MyButton, MyButtonSize, MyButtonTheme } from './MyButton';
 
 const meta: Meta<typeof MyButton> = {
-    title: 'shared/Button',
+    title: 'shared/MyButton',
     component: MyButton,
 };
 
