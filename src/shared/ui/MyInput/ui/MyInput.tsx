@@ -15,11 +15,17 @@ interface MyInputProps extends HTMLInputProps {
 
 export const MyInput: FC<MyInputProps> = memo((props) => {
     const {
+        // eslint-disable-next-line react/prop-types
         className,
+        // eslint-disable-next-line react/prop-types
         onChange,
-        value,
+        // eslint-disable-next-line react/prop-types
+        value = '',
+        // eslint-disable-next-line react/prop-types
         type = 'text',
+        // eslint-disable-next-line react/prop-types
         placeholder,
+        // eslint-disable-next-line react/prop-types
         autofocus,
         ...otherProps
     } = props;
