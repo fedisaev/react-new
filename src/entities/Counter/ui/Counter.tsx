@@ -1,9 +1,9 @@
 import { FC } from 'react';
 import { MyButton } from 'shared/ui/MyButton';
 import { useDispatch, useSelector } from 'react-redux';
-import { getCounterValue } from 'entities/Counter/model/selectors/getCounterValue/getCounterValue';
-import { counterActions } from 'entities/Counter/model/slice/counterSlice';
 import { useTranslation } from 'react-i18next';
+import { getCounterValue } from '../model/selectors/getCounterValue/getCounterValue';
+import { counterActions } from '../model/slice/counterSlice';
 
 export const Counter: FC = () => {
     const dispatch = useDispatch();

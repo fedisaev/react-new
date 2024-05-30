@@ -30,7 +30,7 @@ select {
   --overlay-color: rgba(0 0 0 / 60%);
 }
 
-.app.light {
+.app_light_theme {
   --bg-color: #e8e8ea;
   --primary-color: #0232c2;
   --inverted-bg-color: #090949;
@@ -39,7 +39,7 @@ select {
   --inverted-secondary-color: #04ff04;
 }
 
-.app.dark {
+.app_dark_theme {
   --bg-color: #090949;
   --primary-color: #049604;
   --inverted-bg-color: #e8e8ea;
@@ -48,7 +48,8 @@ select {
   --inverted-secondary-color: #0452ff;
 }
 
-body {
+.app,
+.app_modal {
   font: var(--font-m);
   color: var(--primary-color);
 }
