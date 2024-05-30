@@ -48,6 +48,7 @@ module.exports = {
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error',
         'no-param-reassign': 'off',
+        'react/prop-types': 'off',
     },
     globals: {
         __IS_DEV__: true,
@@ -58,7 +59,6 @@ module.exports = {
             rules: {
                 'i18next/no-literal-string': 'off',
                 'max-len': 'off',
-                'react/prop-types': 'off',
             },
         },
     ],
