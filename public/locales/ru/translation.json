@@ -3,5 +3,14 @@
   "ПЕРЕВОД": "ПЕРЕВОД",
   "Главная страница": "Главная страница",
   "Язык": "Русский",
-  "Короткий язык": "Ru"
+  "Короткий язык": "Ru",
+  "Login": "Войти",
+  "increment": "increment",
+  "decrement": "decrement",
+  "Enter": "Войти",
+  "Enter username": "Введите логин",
+  "Enter password": "Введите пароль",
+  "Authorization form": "Форма авторизации",
+  "You entered wrong username or password": "Вы ввели неправильный логин или пароль",
+  "Logout": "Выйти"
 }
