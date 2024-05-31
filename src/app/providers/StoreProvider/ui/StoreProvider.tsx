@@ -1,4 +1,4 @@
-import { FC, ReactNode } from 'react';
+import React, { FC, ReactNode } from 'react';
 import { Provider } from 'react-redux';
 import { createReduxStore, StateSchema } from 'app/providers/StoreProvider';
 import { DeepPartial } from '@reduxjs/toolkit';

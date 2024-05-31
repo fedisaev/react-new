@@ -65,4 +65,8 @@
   font: var(--font-xl);
 }
 
-/*# sourceMappingURL=MyInput.module.css.map */
+.disabled {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=MyButton.module.css.map */
