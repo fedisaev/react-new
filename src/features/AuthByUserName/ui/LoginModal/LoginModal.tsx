@@ -1,4 +1,4 @@
-import { FC, Suspense } from 'react';
+import React, { FC, Suspense } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Modal } from 'shared/ui/Modal';
 import { Loader } from 'shared/ui/Loader';
