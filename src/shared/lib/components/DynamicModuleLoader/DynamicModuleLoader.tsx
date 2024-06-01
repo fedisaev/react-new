@@ -8,7 +8,7 @@ export type ReducersList = {
     [name in StateSchemaKey]?: Reducer;
 }
 
-type ReducersListEntry = [StateSchemaKey, Reducer];
+type ReducersListEntry = [StateSchemaKey, Reducer]
 
 interface DynamicModuleLoaderProps {
     reducers: ReducersList;
@@ -33,14 +33,15 @@ export const DynamicModuleLoader: FC<DynamicModuleLoaderProps> = (props) => {
 
         return () => {
             if (removeAfterUnmount) {
-                Object.entries(reducers).forEach(([name, reducer]: ReducersListEntry) => {
-                    store.reducerManager.add(name, reducer);
+                Object.entries(reducers).forEach(([name]: ReducersListEntry) => {
+                    store.reducerManager.remove(name);
                     dispatch({ type: `@DESTROY ${name} reducer` });
                 });
             }
         };
         // eslint-disable-next-line
     }, []);
+
     return (
         // eslint-disable-next-line react/jsx-no-useless-fragment
         <>
