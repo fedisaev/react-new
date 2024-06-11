@@ -14,10 +14,14 @@ export const SidebarItem: FC<SidebarItemProps> = (props) => {
     const { item, collapsed } = props;
     const { t } = useTranslation();
 
+    if (!item) {
+        return null;
+    }
+
     return (
         <AppLink
             theme={AppLinkTheme.SECONDARY}
-            to={item.path}
+            to={item?.path}
             className={classNames(cls.item, { [cls.collapsed]: collapsed })}
         >
             <item.Icon className={cls.icon} />

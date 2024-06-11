@@ -22,12 +22,8 @@ export const Text: FC<TextProps> = memo((props) => {
         theme = TextTheme.PRIMARY,
     } = props;
 
-    const mods: Record<string, boolean> = {
-        [cls[theme]]: true,
-    };
-
     return (
-        <div className={classNames(cls.Text, mods, [className])}>
+        <div className={classNames(cls.Text, {}, [className, cls[theme]])}>
             {title && <p className={cls.title}>{title}</p>}
             {text && <p className={cls.text}>{text}</p>}
         </div>

@@ -30,11 +30,7 @@ export const Sidebar: FC<SidebarProps> = memo(({ className }) => {
     return (
         <div
             data-testid="sidebar"
-            className={classNames(
-                cls.Sidebar,
-                { [cls.collapsed]: collapsed },
-                [className],
-            )}
+            className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [className])}
         >
             <MyButton
                 data-testid="sidebar-toggle"
